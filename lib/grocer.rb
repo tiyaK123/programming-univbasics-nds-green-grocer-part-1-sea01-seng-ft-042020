@@ -20,11 +20,11 @@ def consolidate_cart(cart)
   # change `cart` (i.e. mutate) it. It's easier to return a new thing.
 array = []
 index = 0 
-count = 0 
+count = 1 
 while cart.length > index do 
   new_cart = cart[index]
   new_cart[:count] = count
-  array.push(new_cart)
+  array.unshift(new_cart)
   index += 1 
   count += 1 
 end 
