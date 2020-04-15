@@ -3,7 +3,7 @@ def find_item_by_name_in_collection(name, collection)
   #
   # Consult README for inputs and outputs
   index = 0
-while collection.length > index 
+while collection.length > index do
  
     if collection[item] == name
       hash = index
