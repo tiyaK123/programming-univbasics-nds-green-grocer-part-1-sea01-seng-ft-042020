@@ -23,6 +23,7 @@ index = 0
 count = 1 
 while cart.length > index do 
   new_cart = cart[index]
+  if find_item_by_name_in_collection()
   new_cart[:count] = count
   array.push(new_cart)
   index += 1 
