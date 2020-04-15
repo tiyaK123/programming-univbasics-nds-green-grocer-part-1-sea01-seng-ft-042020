@@ -8,6 +8,7 @@ while collection.length > index do
     if item[:item] == name
       return item  
     end
+    index += 1 
   end
 return nil
 end
