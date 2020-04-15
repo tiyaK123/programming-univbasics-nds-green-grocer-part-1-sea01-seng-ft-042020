@@ -2,6 +2,13 @@ def find_item_by_name_in_collection(name, collection)
   # Implement me first!
   #
   # Consult README for inputs and outputs
+collection.each do |index|
+  index.each do |item, price, clearance|
+    if item == name
+      return index
+    end
+  end
+end
 
 end
 
