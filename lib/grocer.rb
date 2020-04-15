@@ -2,6 +2,7 @@ def find_item_by_name_in_collection(name, collection)
   # Implement me first!
   #
   # Consult README for inputs and outputs
+
 collection.each do |index|
   index.each do |item, price, clearance|
     if item == name
@@ -9,7 +10,7 @@ collection.each do |index|
     end
   end
 end
-
+return nil
 end
 
 def consolidate_cart(cart)
