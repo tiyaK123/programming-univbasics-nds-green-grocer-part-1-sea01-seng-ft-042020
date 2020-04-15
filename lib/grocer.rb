@@ -7,6 +7,7 @@ collection.each do |index|
   index.each do |item, price, clearance|
     if item == name
       hash = index
+      return hash 
     end
   end
 end
