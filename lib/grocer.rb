@@ -6,11 +6,9 @@ def find_item_by_name_in_collection(name, collection)
 while collection.length > index do
     item = collection[index]
     if item[:item] == name
-      hash = index
-      return hash 
+      return item  
     end
   end
-end
 return nil
 end
 
