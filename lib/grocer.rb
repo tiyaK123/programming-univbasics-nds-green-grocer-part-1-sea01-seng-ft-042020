@@ -24,7 +24,7 @@ count = 1
 while cart.length > index do 
   new_cart = cart[index]
   new_cart[:count] = count
-  array.unshift(new_cart)
+  array.push(new_cart)
   index += 1 
   count += 1 
 end 
